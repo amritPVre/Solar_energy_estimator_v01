@@ -26,6 +26,40 @@ from pytz import timezone
 
 st.set_page_config(page_title="Solar Energy Estimator", page_icon="☀️",layout="wide")
 
+
+st.markdown(
+    """
+    <div style="background-color:#eb4423;padding:10px;border-radius:10px">
+    <h1 style="color:white;text-align:center;">Solar Energy Estimator</h1>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+st.write('\n')
+st.write('\n')
+
+st.markdown(
+    """
+    <div style="background-color:#dae5e8;padding:10px;border-radius:10px"><h7 style="color:#3b404a;text-align:center;">
+    Welcome to the Solar Energy Estimator! This application is a robust tool designed to help users calculate 
+    potential solar energy production based on specific inputs such as plant capacity, location coordinates, 
+    tilt angle, azimuth angle, and selected module. Leveraging NASA's POWER database and the PVLib Python library, 
+    the app provides detailed hourly, daily, and monthly estimates of solar irradiance on an inclined plane and 
+    respective solar energy generation values. Explore the impact of varying conditions and setups on your 
+    solar energy outcomes and make informed decisions about your solar energy projects. Let's harness 
+    the power of the sun efficiently and sustainably!
+    </h7>
+    </div>
+    """,
+    unsafe_allow_html=True,
+    )
+st.write('\n')
+st.write('\n')
+st.write('_______')
+
+
+st.write('\n')
+
 all_timezones = pytz.all_timezones
 default_ix=all_timezones.index('Asia/Calcutta')
 
