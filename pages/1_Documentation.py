@@ -7,7 +7,7 @@ Created on Mon May 22 01:47:14 2023
 
 import streamlit as st
 
-st.set_page_config(page_title="Disclaimer", page_icon="🧑🏻‍💻🦱")
+st.set_page_config(page_title="Documentation", page_icon="🗎")
 
 def Documentation():
     st.markdown('____')
@@ -41,6 +41,7 @@ The app generates dynamic charts for visual representation of the estimated sola
 ## API Used
 
 The app leverages the PVLIB Python library to make solar energy predictions. PVLIB provides a set of procedures and functions that allow developers to model solar energy production with a high degree of accuracy.
+Link to API: https://pvlib-python.readthedocs.io/en/stable/index.html 
 
 ## Functionality
 
