@@ -24,7 +24,7 @@ from geopy.geocoders import Nominatim
 import pytz
 from pytz import timezone
 
-st.set_page_config(page_title="Disclaimer", page_icon="🧑🏻‍💻🦱",layout="wide")
+st.set_page_config(page_title="Solar Energy Estimator", page_icon="☀️",layout="wide")
 
 all_timezones = pytz.all_timezones
 default_ix=all_timezones.index('Asia/Calcutta')
