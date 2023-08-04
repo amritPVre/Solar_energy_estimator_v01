@@ -7,7 +7,7 @@ Created on Mon May 22 01:47:14 2023
 
 import streamlit as st
 
-st.set_page_config(page_title="Disclaimer", page_icon="🧑🏻‍💻🦱")
+st.set_page_config(page_title="Disclaimer", page_icon="🧑🏻‍💻")
 
 def about_me():
     st.write("# Welcome to My App Collections! 👋")
