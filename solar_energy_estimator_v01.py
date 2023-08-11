@@ -142,8 +142,8 @@ with col2.form(key='my_form'):
     # Get plant capacity from user
     plant_cap = st.number_input("Enter the plant capacity in kW")
     # User inputs
-    latitude = st.number_input('Enter latitude',22.7)
-    longitude = st.number_input('Enter longitude',73.7)
+    latitude = st.number_input('Enter latitude',min_value=-90.0, max_value=90.0, value=22.7)
+    longitude = st.number_input('Enter longitude',min_value=-180.0, max_value=180.0, value=73.7)
     tz_str = st.selectbox("Select your Time Zone", all_timezones,index=default_ix)
     
     # Let users select a model
